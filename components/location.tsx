@@ -9,8 +9,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Teléfono",
-    content: "+1 234 567 89",
-    href: "tel:+123456789",
+    content: "+52 442 123 4567",
+    href: "tel:+524421234567",
   },
   {
     icon: Mail,
@@ -47,22 +47,22 @@ export function Location() {
           {/* Map */}
           <div className="aspect-[4/3] lg:aspect-auto lg:h-full min-h-[400px] rounded-xl overflow-hidden border border-border">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.661576009858!2d-99.16869032394932!3d19.42702384085493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sPalacio%20de%20Bellas%20Artes!5e0!3m2!1ses!2smx!4v1699900000000!5m2!1ses!2smx"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.7048648832906!2d-100.44263902392408!3d20.72036169720963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d345b7f3e7aeed%3A0x5e6d3b8b8c3f1234!2sResidencial%20Caletto%2C%20Blvd.%20Jurica%20la%20Campana%2C%20Jurica%20Acueducto%2C%2076230%20Juriquilla%2C%20Qro.%2C%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1715200000000!5m2!1ses!2smx"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación de Dental Smile"
+              title="Ubicación de Dental Smile - Residencial Caletto, Juriquilla"
             />
           </div>
 
           {/* Contact Info */}
           <div className="space-y-6">
             {contactInfo.map((info, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="flex items-start gap-4 p-4 rounded-xl bg-secondary/50 hover:bg-secondary transition-colors"
               >
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
@@ -71,7 +71,7 @@ export function Location() {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">{info.title}</h3>
                   {info.href ? (
-                    <a 
+                    <a
                       href={info.href}
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
@@ -88,7 +88,7 @@ export function Location() {
             <div className="p-6 rounded-xl bg-primary text-primary-foreground">
               <h3 className="font-semibold text-xl mb-2">¿Primera vez en nuestra clínica?</h3>
               <p className="opacity-90 mb-4">
-                Te invitamos a conocer nuestras instalaciones. Agenda tu primera 
+                Te invitamos a conocer nuestras instalaciones. Agenda tu primera
                 consulta de valoración sin costo por WhatsApp.
               </p>
               <a

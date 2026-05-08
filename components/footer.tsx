@@ -39,7 +39,7 @@ export function Footer() {
               <span className="font-semibold text-xl">Dental Smile</span>
             </Link>
             <p className="text-background/70 leading-relaxed">
-              Tu sonrisa, nuestra prioridad. Más de 15 años brindando 
+              Tu sonrisa, nuestra prioridad. Más de 15 años brindando
               atención dental de calidad.
             </p>
             {/* Social Links */}
@@ -94,8 +94,8 @@ export function Footer() {
             <div className="space-y-3 text-background/70">
               <p>Av. Principal 123, Centro Comercial Plaza, Local 45</p>
               <p>
-                <a href="tel:+123456789" className="hover:text-primary transition-colors">
-                  +1 234 567 89
+                <a href="tel:+524421234567" className="hover:text-primary transition-colors">
+                  +52 442 123 4567
                 </a>
               </p>
               <p>
@@ -123,6 +123,11 @@ export function Footer() {
                 Términos de Uso
               </Link>
             </div>
+          </div>
+          <div className="mt-4 text-center">
+            <p className="text-background/40 text-xs">
+              Hecho por D&apos;cReaM 🐢
+            </p>
           </div>
         </div>
       </div>
