@@ -2,10 +2,10 @@ import Link from "next/link"
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
 
 const socialLinks = [
-  { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Youtube, href: "https://youtube.com", label: "YouTube" },
+  { icon: Facebook, href: "https://www.facebook.com/dentalia.mx", label: "Facebook" },
+  { icon: Instagram, href: "https://www.instagram.com/dentalia_mx/", label: "Instagram" },
+  { icon: Twitter, href: "https://x.com/dentalia_mx", label: "Twitter" },
+  { icon: Youtube, href: "https://www.youtube.com/@dentaliamx3421", label: "YouTube" },
 ]
 
 const quickLinks = [
